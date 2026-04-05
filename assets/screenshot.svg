@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0e0e1c"/><stop offset="100%" stop-color="#08080f"/></linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="900" height="420" rx="14" fill="url(#bg)" stroke="rgba(255,255,255,0.06)"/>
+  <!-- Toolbar -->
+  <rect x="0" y="0" width="900" height="40" rx="14" fill="#0e0e1c"/>
+  <rect x="0" y="14" width="900" height="26" fill="#0e0e1c"/>
+  <line x1="0" y1="40" x2="900" y2="40" stroke="rgba(255,255,255,0.06)"/>
+  <text x="18" y="26" font-family="sans-serif" font-size="14" fill="#e2e8f0" font-weight="700">Gantt Chart</text>
+  <rect x="122" y="14" width="30" height="18" rx="9" fill="rgba(129,140,248,0.15)"/>
+  <text x="137" y="27" font-family="sans-serif" font-size="10" fill="#818cf8" text-anchor="middle">8</text>
+  <rect x="720" y="11" width="54" height="22" rx="6" fill="rgba(129,140,248,0.1)" stroke="rgba(129,140,248,0.3)"/>
+  <text x="747" y="26" font-family="sans-serif" font-size="10" fill="#818cf8" text-anchor="middle">+ Add</text>
+  <rect x="780" y="11" width="50" height="22" rx="6" fill="rgba(255,255,255,0.03)"/>
+  <text x="805" y="26" font-family="sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">⬆ Prog</text>
+  <rect x="836" y="11" width="54" height="22" rx="6" fill="rgba(255,255,255,0.03)"/>
+  <text x="863" y="26" font-family="sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">✕ Delete</text>
+  <!-- Date Header -->
+  <rect x="200" y="40" width="700" height="48" fill="#0e0e1c"/>
+  <!-- Month labels -->
+  <text x="250" y="58" font-family="sans-serif" font-size="10" fill="#94a3b8" font-weight="600">Apr 2026</text>
+  <text x="560" y="58" font-family="sans-serif" font-size="10" fill="#94a3b8" font-weight="600">May 2026</text>
+  <!-- Day numbers -->
+  <g font-family="monospace" font-size="8" fill="#475569">
+    <text x="210" y="78" text-anchor="middle">1</text>
+    <text x="246" y="78" text-anchor="middle">2</text>
+    <text x="282" y="78" text-anchor="middle">3</text>
+    <text x="318" y="78" text-anchor="middle">4</text>
+    <text x="354" y="78" text-anchor="middle">5</text>
+    <text x="390" y="78" text-anchor="middle">6</text>
+    <text x="426" y="78" text-anchor="middle">7</text>
+    <text x="462" y="78" text-anchor="middle">8</text>
+    <text x="498" y="78" text-anchor="middle">9</text>
+    <text x="534" y="78" text-anchor="middle">10</text>
+    <text x="570" y="78" text-anchor="middle">11</text>
+    <text x="606" y="78" text-anchor="middle">12</text>
+    <text x="642" y="78" text-anchor="middle">13</text>
+    <text x="678" y="78" text-anchor="middle">14</text>
+    <text x="714" y="78" text-anchor="middle">15</text>
+    <text x="750" y="78" text-anchor="middle">16</text>
+    <text x="786" y="78" text-anchor="middle">17</text>
+    <text x="822" y="78" text-anchor="middle">18</text>
+    <text x="858" y="78" text-anchor="middle">19</text>
+  </g>
+  <line x1="200" y1="88" x2="900" y2="88" stroke="rgba(255,255,255,0.12)"/>
+  <!-- Weekend stripes -->
+  <rect x="306" y="88" width="72" height="292" fill="rgba(255,255,255,0.015)"/>
+  <rect x="594" y="88" width="72" height="292" fill="rgba(255,255,255,0.015)"/>
+  <!-- Grid lines -->
+  <g stroke="rgba(255,255,255,0.03)" stroke-width="0.5">
+    <line x1="200" y1="128" x2="900" y2="128"/><line x1="200" y1="168" x2="900" y2="168"/>
+    <line x1="200" y1="208" x2="900" y2="208"/><line x1="200" y1="248" x2="900" y2="248"/>
+    <line x1="200" y1="288" x2="900" y2="288"/><line x1="200" y1="328" x2="900" y2="328"/>
+    <line x1="200" y1="368" x2="900" y2="368"/>
+  </g>
+  <!-- Task List Panel (sticky left) -->
+  <rect x="0" y="40" width="200" height="48" fill="#0e0e1c"/>
+  <text x="18" y="68" font-family="sans-serif" font-size="9" fill="#475569" letter-spacing="1.2" font-weight="600">TASK</text>
+  <text x="140" y="68" font-family="sans-serif" font-size="9" fill="#475569" letter-spacing="1.2" font-weight="600">DAYS</text>
+  <text x="172" y="68" font-family="sans-serif" font-size="9" fill="#475569" letter-spacing="1.2" font-weight="600">PROG</text>
+  <line x1="0" y1="88" x2="200" y2="88" stroke="rgba(255,255,255,0.12)"/>
+  <line x1="200" y1="40" x2="200" y2="420" stroke="rgba(255,255,255,0.06)"/>
+  <!-- Task rows in list -->
+  <!-- Selected row highlight -->
+  <rect x="0" y="88" width="200" height="40" fill="rgba(129,140,248,0.08)"/>
+  <!-- Task 1: Research -->
+  <circle cx="18" cy="108" r="5" fill="#6366f1"/>
+  <text x="30" y="112" font-family="sans-serif" font-size="11" fill="#e2e8f0">Research</text>
+  <text x="146" y="112" font-family="monospace" font-size="9" fill="#94a3b8">3d</text>
+  <text x="178" y="112" font-family="monospace" font-size="9" fill="#94a3b8">100%</text>
+  <line x1="0" y1="128" x2="200" y2="128" stroke="rgba(255,255,255,0.04)"/>
+  <!-- Task 2: Design -->
+  <circle cx="18" cy="148" r="5" fill="#ec4899"/>
+  <text x="30" y="152" font-family="sans-serif" font-size="11" fill="#e2e8f0">Design</text>
+  <text x="146" y="152" font-family="monospace" font-size="9" fill="#94a3b8">5d</text>
+  <text x="178" y="152" font-family="monospace" font-size="9" fill="#34d399">80%</text>
+  <line x1="0" y1="168" x2="200" y2="168" stroke="rgba(255,255,255,0.04)"/>
+  <!-- Task 3: Frontend -->
+  <circle cx="18" cy="188" r="5" fill="#10b981"/>
+  <text x="30" y="192" font-family="sans-serif" font-size="11" fill="#e2e8f0">Frontend Dev</text>
+  <text x="146" y="192" font-family="monospace" font-size="9" fill="#94a3b8">7d</text>
+  <text x="178" y="192" font-family="monospace" font-size="9" fill="#94a3b8">40%</text>
+  <line x1="0" y1="208" x2="200" y2="208" stroke="rgba(255,255,255,0.04)"/>
+  <!-- Task 4: Backend -->
+  <circle cx="18" cy="228" r="5" fill="#f59e0b"/>
+  <text x="30" y="232" font-family="sans-serif" font-size="11" fill="#e2e8f0">Backend Dev</text>
+  <text x="146" y="232" font-family="monospace" font-size="9" fill="#94a3b8">6d</text>
+  <text x="178" y="232" font-family="monospace" font-size="9" fill="#94a3b8">20%</text>
+  <line x1="0" y1="248" x2="200" y2="248" stroke="rgba(255,255,255,0.04)"/>
+  <!-- Task 5: Testing -->
+  <circle cx="18" cy="268" r="5" fill="#22d3ee"/>
+  <text x="30" y="272" font-family="sans-serif" font-size="11" fill="#e2e8f0">Testing</text>
+  <text x="146" y="272" font-family="monospace" font-size="9" fill="#94a3b8">4d</text>
+  <text x="178" y="272" font-family="monospace" font-size="9" fill="#94a3b8">0%</text>
+  <line x1="0" y1="288" x2="200" y2="288" stroke="rgba(255,255,255,0.04)"/>
+  <!-- Task 6: Review (milestone) -->
+  <circle cx="18" cy="308" r="5" fill="#a78bfa"/>
+  <text x="30" y="312" font-family="sans-serif" font-size="11" fill="#e2e8f0">Review ◆</text>
+  <text x="146" y="312" font-family="monospace" font-size="9" fill="#94a3b8">1d</text>
+  <text x="178" y="312" font-family="monospace" font-size="9" fill="#94a3b8">0%</text>
+  <line x1="0" y1="328" x2="200" y2="328" stroke="rgba(255,255,255,0.04)"/>
+  <!-- Task 7: Docs -->
+  <circle cx="18" cy="348" r="5" fill="#f87171"/>
+  <text x="30" y="352" font-family="sans-serif" font-size="11" fill="#e2e8f0">Documentation</text>
+  <text x="146" y="352" font-family="monospace" font-size="9" fill="#94a3b8">3d</text>
+  <text x="178" y="352" font-family="monospace" font-size="9" fill="#94a3b8">0%</text>
+  <line x1="0" y1="368" x2="200" y2="368" stroke="rgba(255,255,255,0.04)"/>
+  <!-- Task 8: Deploy -->
+  <circle cx="18" cy="388" r="5" fill="#34d399"/>
+  <text x="30" y="392" font-family="sans-serif" font-size="11" fill="#e2e8f0">Deploy</text>
+  <text x="146" y="392" font-family="monospace" font-size="9" fill="#94a3b8">2d</text>
+  <text x="178" y="392" font-family="monospace" font-size="9" fill="#94a3b8">0%</text>
+  <!-- Gantt bars -->
+  <!-- Task 1: Research - days 1-3, 100% complete -->
+  <rect x="210" y="94" width="108" height="28" rx="6" fill="rgba(99,102,241,0.15)" stroke="rgba(99,102,241,0.3)"/>
+  <!-- Selected glow -->
+  <rect x="210" y="94" width="108" height="28" rx="6" fill="none" stroke="#6366f1" stroke-width="1.5"/>
+  <rect x="210" y="94" width="108" height="28" rx="6" fill="rgba(99,102,241,0.25)"/>
+  <text x="264" y="112" font-family="sans-serif" font-size="9" fill="rgba(255,255,255,0.8)" text-anchor="middle">Research</text>
+  <!-- Task 2: Design - days 3-8, 80% complete -->
+  <rect x="282" y="134" width="180" height="28" rx="6" fill="rgba(236,72,153,0.15)" stroke="rgba(236,72,153,0.3)"/>
+  <rect x="282" y="134" width="144" height="28" rx="6" fill="rgba(236,72,153,0.25)"/>
+  <text x="372" y="152" font-family="sans-serif" font-size="9" fill="rgba(255,255,255,0.8)" text-anchor="middle">Design</text>
+  <!-- Task 3: Frontend Dev - days 5-12, 40% -->
+  <rect x="354" y="174" width="252" height="28" rx="6" fill="rgba(16,185,129,0.15)" stroke="rgba(16,185,129,0.3)"/>
+  <rect x="354" y="174" width="101" height="28" rx="6" fill="rgba(16,185,129,0.25)"/>
+  <text x="480" y="192" font-family="sans-serif" font-size="9" fill="rgba(255,255,255,0.8)" text-anchor="middle">Frontend Dev</text>
+  <!-- Task 4: Backend Dev - days 5-11, 20% -->
+  <rect x="354" y="214" width="216" height="28" rx="6" fill="rgba(245,158,11,0.15)" stroke="rgba(245,158,11,0.3)"/>
+  <rect x="354" y="214" width="43" height="28" rx="6" fill="rgba(245,158,11,0.25)"/>
+  <text x="462" y="232" font-family="sans-serif" font-size="9" fill="rgba(255,255,255,0.8)" text-anchor="middle">Backend Dev</text>
+  <!-- Task 5: Testing - days 12-16, 0% -->
+  <rect x="606" y="254" width="144" height="28" rx="6" fill="rgba(34,211,238,0.15)" stroke="rgba(34,211,238,0.3)"/>
+  <text x="678" y="272" font-family="sans-serif" font-size="9" fill="rgba(255,255,255,0.8)" text-anchor="middle">Testing</text>
+  <!-- Task 6: Review (Milestone) - day 16 -->
+  <g transform="translate(750,308)">
+    <rect x="-14" y="-14" width="28" height="28" rx="4" fill="rgba(167,139,250,0.15)" stroke="rgba(167,139,250,0.5)" transform="rotate(45)"/>
+  </g>
+  <!-- Task 7: Documentation - days 12-15, 0% -->
+  <rect x="606" y="334" width="108" height="28" rx="6" fill="rgba(248,113,113,0.15)" stroke="rgba(248,113,113,0.3)"/>
+  <text x="660" y="352" font-family="sans-serif" font-size="9" fill="rgba(255,255,255,0.8)" text-anchor="middle">Documentation</text>
+  <!-- Task 8: Deploy - days 16-18, 0% -->
+  <rect x="750" y="374" width="72" height="28" rx="6" fill="rgba(52,211,153,0.15)" stroke="rgba(52,211,153,0.3)"/>
+  <text x="786" y="392" font-family="sans-serif" font-size="9" fill="rgba(255,255,255,0.8)" text-anchor="middle">Deploy</text>
+  <!-- Dependency arrows (curved dashed) -->
+  <!-- Research -> Design -->
+  <path d="M318,108 C338,108 262,148 282,148" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" stroke-dasharray="4,3" fill="none" marker-end="url(#arrowhead)"/>
+  <!-- Design -> Frontend Dev -->
+  <path d="M462,148 C482,148 334,188 354,188" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" stroke-dasharray="4,3" fill="none"/>
+  <!-- Design -> Backend Dev -->
+  <path d="M462,148 C482,158 334,228 354,228" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" stroke-dasharray="4,3" fill="none"/>
+  <!-- Frontend -> Testing -->
+  <path d="M606,188 C626,188 586,268 606,268" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" stroke-dasharray="4,3" fill="none"/>
+  <!-- Backend -> Testing -->
+  <path d="M570,228 C590,228 586,268 606,268" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" stroke-dasharray="4,3" fill="none"/>
+  <!-- Testing -> Review milestone -->
+  <path d="M750,268 C770,268 730,308 750,308" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" stroke-dasharray="4,3" fill="none"/>
+  <!-- Testing -> Docs -->
+  <path d="M606,268 C586,278 586,348 606,348" stroke="rgba(255,255,255,0.15)" stroke-width="1.5" stroke-dasharray="4,3" fill="none"/>
+  <!-- Docs -> Deploy -->
+  <path d="M714,348 C734,348 730,388 750,388" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" stroke-dasharray="4,3" fill="none"/>
+  <!-- Today line -->
+  <line x1="498" y1="88" x2="498" y2="410" stroke="#f87171" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.6"/>
+  <rect x="480" y="72" width="36" height="14" rx="3" fill="rgba(248,113,113,0.8)"/>
+  <text x="498" y="82" font-family="sans-serif" font-size="7" fill="white" text-anchor="middle" font-weight="600">TODAY</text>
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+      <polygon points="0 0, 6 2, 0 4" fill="rgba(255,255,255,0.3)"/>
+    </marker>
+  </defs>
+  <!-- Status Bar -->
+  <rect x="0" y="400" width="900" height="20" fill="rgba(14,14,28,0.95)"/>
+  <line x1="0" y1="400" x2="900" y2="400" stroke="rgba(255,255,255,0.06)"/>
+  <text x="12" y="413" font-family="sans-serif" font-size="8" fill="#94a3b8">8 tasks</text>
+  <text x="64" y="413" font-family="sans-serif" font-size="8" fill="#94a3b8">·</text>
+  <text x="74" y="413" font-family="sans-serif" font-size="8" fill="#34d399">1 completed</text>
+  <text x="148" y="413" font-family="sans-serif" font-size="8" fill="#94a3b8">·</text>
+  <text x="158" y="413" font-family="sans-serif" font-size="8" fill="#94a3b8">30% overall</text>
+  <text x="640" y="413" font-family="sans-serif" font-size="8" fill="rgba(255,255,255,0.2)">Click to select · Drag to move · Drag edge to resize</text>
+</svg>

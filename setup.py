@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="streamlit-gantt",
-    version="0.1.0",
+    version="0.1.1",
     author="Dan Sheils",
     author_email="",
     description="Interactive Gantt chart component for Streamlit with drag-and-drop task scheduling",
