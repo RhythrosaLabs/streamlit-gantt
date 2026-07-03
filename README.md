@@ -314,3 +314,8 @@ MIT — see [LICENSE](LICENSE) for details.
 - **GitHub:** [https://github.com/RhythrosaLabs/streamlit-gantt](https://github.com/RhythrosaLabs/streamlit-gantt)
 - **Changelog:** [CHANGELOG.md](CHANGELOG.md)
 - **Issues:** [https://github.com/RhythrosaLabs/streamlit-gantt/issues](https://github.com/RhythrosaLabs/streamlit-gantt/issues)
+
+
+## Support
+
+If you find this useful, consider supporting via [PayPal](https://paypal.me/noodlebake)
