@@ -321,3 +321,5 @@ MIT — see [LICENSE](LICENSE) for details.
 If you find this useful, consider supporting via [PayPal](https://paypal.me/noodlebake)
 
 🌐 [Portfolio: rhythrosalabs.github.io](https://rhythrosalabs.github.io) (more apps, music and sound design)
+
+Built by [Dan Sheils](https://rhythrosalabs.github.io/).
